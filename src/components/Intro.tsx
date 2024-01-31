@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import { TypeWriter } from "./TypeWrite";
 import { useEffect } from "react";
 import { onClickTweet } from "@/animations/intro";
