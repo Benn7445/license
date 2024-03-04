@@ -43,7 +43,7 @@ export const Site = ({ show, codeLoaded, finished, isPremium, setCodeLoaded, set
     <>
       <audio id='fadein' src='/sounds/fadein.mp3'></audio>
       <audio id='ping' src='/sounds/ping.mp3'></audio>
-      <section id="site" className={`relative w-1/3 border-4 border-white border-opacity-20 rounded-xl m-auto ${show ? "animate-fadein" : "opacity-0"}`} style={{ height: 190 }}>
+      <section id="site" className={`relative whitespace-nowrap w-1/3 min-w-fit border-4 border-white border-opacity-20 rounded-xl m-auto ${show ? "animate-fadein" : "opacity-0"}`} style={{ height: 190 }}>
         <div id="covers" className="hidden">
           <div className="bg-black bg-opacity-70 w-[calc(100%+8px)] h-[104px] absolute z-10 -top-1 -left-1" />
           <div className="bg-black bg-opacity-70 w-2 mt-[104px] h-[16px] absolute z-10 -top-1 -left-1" />
